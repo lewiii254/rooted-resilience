@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
+# Rooted in Resilience
 
-## Project info
+## About the Project
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This is the official website for **Truphena Muthoni's** environmental activism campaign - "Rooted in Resilience". The project showcases her journey of hugging a tree for 72 hours to raise awareness about mental health and the preservation of indigenous forests in Kenya.
 
-## How can I edit this code?
+**Mission**: To highlight the connection between environmental conservation and mental health while advocating for the protection of Kenya's indigenous forests.
 
-There are several ways of editing your application.
+## Project Story
 
-**Use Lovable**
+72 Hours. One Tree. A Fight for Mental Health & Indigenous Forests.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Discover the journey of Kenyan environmental activist Truphena Muthoni as she takes on an extraordinary challenge to raise awareness about climate change, mental health, and the importance of preserving our natural heritage.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Development Setup
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Getting Started
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/lewiii254/rooted-resilience.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd rooted-resilience
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Available Scripts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint to check code quality
+- `npm run preview` - Preview production build locally
 
-**Use GitHub Codespaces**
+## Technologies Used
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project is built with modern web technologies:
 
-## What technologies are used for this project?
+- **Vite** - Fast build tool and dev server
+- **TypeScript** - Type-safe JavaScript
+- **React** - UI library
+- **shadcn-ui** - Accessible component library
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Router** - Client-side routing
+- **TanStack Query** - Data fetching and caching
 
-This project is built with:
+## Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+rooted-resilience/
+├── public/          # Static assets
+├── src/
+│   ├── components/  # Reusable React components
+│   ├── pages/       # Page components
+│   ├── hooks/       # Custom React hooks
+│   ├── lib/         # Utility functions
+│   └── assets/      # Images and other assets
+└── ...config files
+```
 
-## How can I deploy this project?
+## Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Contributions are welcome! If you'd like to contribute to this project, please:
 
-## Can I connect a custom domain to my Lovable project?
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Yes, you can!
+## Contact
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+**Truphena Muthoni**
+- Twitter: [@TruphenaMuthoni](https://twitter.com/TruphenaMuthoni)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## License
+
+This project is open source and available for educational and advocacy purposes.
