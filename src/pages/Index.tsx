@@ -2,8 +2,10 @@ import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import JourneySection from '@/components/JourneySection';
 import MissionSection from '@/components/MissionSection';
+import ImpactCounters from '@/components/ImpactCounters';
 import RecordsSection from '@/components/RecordsSection';
 import GetInvolvedSection from '@/components/GetInvolvedSection';
+import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import RainEffect from '@/components/RainEffect';
 import FloatingLeaves from '@/components/FloatingLeaves';
@@ -21,9 +23,11 @@ const Index = () => {
       {/* Sections */}
       <HeroSection />
       <JourneySection />
+      <ImpactCounters />
       <MissionSection />
       <RecordsSection />
       <GetInvolvedSection />
+      <ContactSection />
       <Footer />
     </main>
   );
